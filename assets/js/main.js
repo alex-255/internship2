@@ -12,6 +12,7 @@ window.addEventListener("load", () => {
       header.classList.toggle("menu-opened");  
   };
 
+  // hover on cards
   const content = document.querySelectorAll(".our-team--content");
   content.forEach(element => element.addEventListener( "mouseover", (event) => {
     event.target.closest(".our-team--content").classList.toggle("content-shown");
