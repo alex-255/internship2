@@ -56,41 +56,9 @@ window.addEventListener("load", () => {
             ]
         });
 
-        $('#inner-slider').slick({
-          infinite: false,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: true,
-          arrows: true,
-          responsive: [
-              {
-                breakpoint: 900,
-                settings: {
-                  dots: false,
-                }
-              }
-          ]
-        });
+        // Fancybox.bind("[data-fancybox]", {
 
-        $('#our-projects-carousel').slick({
-            infinite: false,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                  breakpoint: 900,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true
-                  }
-                }
-            ]
-        });
-
-        Fancybox.bind("[data-fancybox]", {
-
-        });
+        // });
 
       });
 
