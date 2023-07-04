@@ -618,6 +618,7 @@
   line-height: normal;
   text-transform: uppercase;
   text-decoration: none;
+  transition: all 0.3s;
 }
 .our-team--read-more-link a:hover {
   border-radius: 25px;

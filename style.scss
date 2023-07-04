@@ -729,6 +729,7 @@ $color-white: #FFFFFF;
       line-height: normal;
       text-transform: uppercase;
       text-decoration: none;
+      transition: all 0.3s;
 
       &:hover {
         border-radius: 25px;
