@@ -509,7 +509,31 @@
   padding: 30px;
   min-height: 350px;
 }
-.our-team--content--occupation, .our-team--content--text, .our-team--content--phone, .our-team--content--link {
+.our-team--content--occupation {
+  color: #555;
+  text-align: center;
+  font-size: 36px;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.our-team--content--social {
+  display: flex;
+  justify-content: center;
+}
+.our-team--content--social i {
+  margin-right: 30px;
+}
+.our-team--content--social i:last-of-type {
+  margin-right: 0;
+}
+.our-team--content--social i::before {
+  font-size: 40px;
+  color: #0073B0;
+}
+.our-team--content--text, .our-team--content--phone, .our-team--content--link {
   display: none;
   transition: all 0.3s;
 }
@@ -575,16 +599,6 @@
   text-decoration-line: underline;
   text-transform: capitalize;
   margin-top: 12px;
-}
-.our-team--content--social i {
-  margin-right: 30px;
-}
-.our-team--content--social i:last-of-type {
-  margin-right: 0;
-}
-.our-team--content--social i::before {
-  font-size: 40px;
-  color: #0073B0;
 }
 .our-team--read-more-link {
   display: flex;
