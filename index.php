@@ -154,11 +154,14 @@ get_header();
             </div>
         </div>
     </div>
-<div class="read-more-link">
+<div class="our-team--read-more-link">
   <a href="#">view the whole team</a>
 </div>
 </section>
 
+<section class="footer container-fluid">
+
+</section>
 <?php
 get_footer(); 
 ?>

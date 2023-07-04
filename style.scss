@@ -549,7 +549,7 @@ $color-white: #FFFFFF;
     margin-top: 38px;
     transition: all 0.3s;
     padding: 30px;
-    min-height: 300px;
+    min-height: 350px;
 
     &--occupation,
     &--text,
@@ -650,9 +650,40 @@ $color-white: #FFFFFF;
       }
     }
   }
+
+  &--read-more-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+
+    a {
+      border-radius: 3px;
+      background: #0073B0;
+      padding: 15px 35px;
+      color: $color-white;
+      text-align: center;
+      font-size: 20px;
+      font-family: $font-montserrat-sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      text-decoration: none;
+
+      &:hover {
+        border-radius: 25px;
+      }
+    }
+  }
 }
 
     // this is a feature for designer
 .designers-feature::before {
   transform: rotate(-45deg);
+}
+
+.footer {
+  max-width: 500px;
+
+  
 }
