@@ -33,10 +33,24 @@ window.addEventListener("load", () => {
             arrows: true,
             adaptiveHeight: true,
             responsive: [
+              {
+                breakpoint: 1600,
+                settings: {
+                  slidesToShow: 3
+                }
+              },
+              {
+                breakpoint: 1200,
+                settings: {
+                  slidesToShow: 2
+                }
+              },
                 {
                   breakpoint: 900,
                   settings: {
+                    slidesToShow: 1,
                     dots: false,
+                    arrows: false
                   }
                 }
             ]
