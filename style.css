@@ -658,8 +658,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-decoration-line: underline;
   text-transform: uppercase;
+  text-decoration: none;
+}
+.footer .menu ul li a:hover {
+  text-decoration: underline;
 }
 .footer .icons ul {
   list-style-type: none;
@@ -674,7 +677,11 @@
   color: #FFFFFF;
   text-align: center;
   font-size: 62px;
-  text-decoration-line: underline;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.footer .icons ul li a:hover {
+  color: silver;
 }
 .footer--small {
   color: #FFFFFF;

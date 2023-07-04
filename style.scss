@@ -774,8 +774,13 @@ $color-white: #FFFFFF;
           font-style: normal;
           font-weight: 400;
           line-height: normal;
-          text-decoration-line: underline;
           text-transform: uppercase;
+
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
     }
@@ -795,7 +800,12 @@ $color-white: #FFFFFF;
           color: $color-white;
           text-align: center;
           font-size: 62px;
-          text-decoration-line: underline;
+          text-decoration: none;
+          transition: all 0.3s;
+
+          &:hover {
+            color: silver;
+          }
         }
       }
     }
